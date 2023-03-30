@@ -9,4 +9,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Firebase
 
-To setup Firebase Realtime Database, an environments file should be created first, containing all of the necessary data to access your Database.
+To setup Firebase Realtime Database, an `environments` file should be created first, containing all of the necessary data to access your Database.
