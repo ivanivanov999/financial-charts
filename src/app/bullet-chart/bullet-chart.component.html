@@ -1,0 +1,14 @@
+<div class="chartcontainer">
+  <div class="chartheader">Bullet Chart</div>
+  <div class="chartbackground">
+    <div *ngrxLet="exportData as exportData" class="chart">
+      <plotly-plot
+        [data]="exportData"
+        [layout]="exportLayout"
+        [useResizeHandler]="true"
+        [style]="{ position: 'relative', width: '100%', height: '100%' }"
+      >
+      </plotly-plot>
+    </div>
+  </div>
+</div>

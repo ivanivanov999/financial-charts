@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+
+.chart {
+    width: 500px;
+    height: 120px;
+}
+
+.chartbackground {
+    background-color: white;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.135);
+    border-width: 10px;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chartheader {
+
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    background-color: #00549F;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    text-indent: 20px;
+}
+
+.chartcontainer {
+    padding: 20px;
+}
+

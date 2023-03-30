@@ -1,0 +1,94 @@
+nav {
+    height: 7%;
+    background: #00549F;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.appcomponent {
+    height: 100%
+}
+
+.logo {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.title {
+    margin-left: 20px;
+    width: 30%;
+    font-size: 1.6rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: right;
+    width: 70%;
+}
+
+.separator {
+    width: 1.8px;
+    background-color: white;
+    height: 40px;
+    align-self: center;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    margin: 0px 10px 0px 10px;
+    background-color: #00549F;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #003a6c;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 93%;
+}
+
+.chartbackground {
+    background-color: white;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.135);
+    border-width: 10px;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chartheader {
+
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    background-color: #00549F;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    text-indent: 20px;
+}
+
+.chartcontainer {
+    padding: 20px;
+}
